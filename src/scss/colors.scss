@@ -1,5 +1,3 @@
-@include oColorsSetColor('grey-5', oColorsMix(black, white, 5)); //background
-
 // passes AAA for any size text
 @include oColorsSetColor('grey-70', oColorsMix(black, white, 70));
 @include oColorsSetColor('black-crimson-25', oColorsMix(black, crimson, 25));
