@@ -63,6 +63,12 @@
 			"description": "Syntax highlight for diff"
 		},
 		{
+			"title": "Bash",
+			"name": "bash",
+			"template": "demos/src/bash.mustache",
+			"description": "Syntax highlight for bash"
+		},
+		{
 			"title": "imperative",
 			"name": "imperative",
 			"template": "demos/src/imperative.mustache",
