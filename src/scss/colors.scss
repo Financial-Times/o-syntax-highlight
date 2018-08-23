@@ -1,6 +1,6 @@
 // passes AAA for any size text
 @include oColorsSetColor('grey-70', oColorsMix(black, white, 70));
-@include oColorsSetColor('oxford-crimson-50', oColorsMix(velvet, candy, 60));
+@include oColorsSetColor('oxford-crimson-50', oColorsMix(oxford, crimson, 50));
 
 // Passes AA for any, AAA for 18pt or bold above 14px
 // oColorsGetPaletteColor(oxford); listed here for reference only
