@@ -1,4 +1,4 @@
-@mixin oSyntaxHighlightHTML {
+@mixin _oSyntaxHighlightHTML {
 	.o-syntax-highlight--html {
 		.token {
 			&.attr-name { color: oColorsGetPaletteColor('oxford'); }

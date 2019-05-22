@@ -1,4 +1,4 @@
-@mixin oSyntaxHighlightBASH {
+@mixin _oSyntaxHighlightBash {
 	.o-syntax-highlight--bash {
 		.token {
 			&.comment { color: oColorsGetPaletteColor('grey-60'); }

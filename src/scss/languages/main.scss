@@ -6,7 +6,7 @@
 @import 'scss';
 @import 'diff';
 
-@mixin oSyntaxHighlightBase() {
+@mixin _oSyntaxHighlightBase() {
 	[data-o-component='o-syntax-highlight'] {
 		pre {
 			background: oColorsGetPaletteColor('grey-5');
@@ -36,15 +36,4 @@
 			font-weight: 600;
 		}
 	}
-}
-
-@mixin oSyntaxHighlightAll() {
-	@include oSyntaxHighlightBase();
-	@include oSyntaxHighlightBASH();
-	@include oSyntaxHighlightCSS();
-	@include oSyntaxHighlightHTML();
-	@include oSyntaxHighlightJS();
-	@include oSyntaxHighlightJSON();
-	@include oSyntaxHighlightSCSS();
-	@include oSyntaxHighlightDIFF();
 }

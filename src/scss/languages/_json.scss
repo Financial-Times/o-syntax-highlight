@@ -1,4 +1,4 @@
-@mixin oSyntaxHighlightJSON () {
+@mixin _oSyntaxHighlightJSON () {
 	.o-syntax-highlight--json {
 		.token {
 			&.number { color: oColorsGetPaletteColor('crimson-jade-80'); }
