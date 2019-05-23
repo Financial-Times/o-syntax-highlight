@@ -125,29 +125,43 @@ myElement.innerHTML = highlighter.tokenise();
 ```
 
 ### Sass
-As with all Origami components, o-syntax-highlight has a [silent mode](http://origami.ft.com/docs/syntax/scss/#silent-styles). To use its compiled CSS (rather than using its mixins with your own Sass) set `$o-syntax-highlight-is-silent: false;` in your Sass before you import the o-syntax-highlight Sass.
 
-You can't choose your own classnames, but you can choose to load specific language styles as follows:
+You can include highlighting for all languages by calling:
+
 ```scss
-	@include oSyntaxHighlightBase();
-	@include oSyntaxHighlightJSON();
+@include oSyntaxHighlight();
 ```
 
-The same is applicable for the other languages:
-- Javascript: `oSyntaxHighlightJS()`
-- HTML: `oSyntaxHighlightHTML()`
-- CSS: `oSyntaxHighlightCSS()`
-- SCSS/SASS: `oSyntaxHighlightSCSS()`
-- JSON: `oSyntaxHighlightJSON()`
-- DIFF: `oSyntaxHighlightDIFF()`
+You can also be more specific about which languages you would like styling output for by using an `$opts` map:
+```scss
+	@include oSyntaxHighlight($opts: (
+		'languages': (
+			'html', 
+			'json'
+		)
+	));
+```
+`o-syntax-highlight` accespts the following options:
+- 'bash'
+- 'css'
+- 'diff'
+- 'html'
+- 'js' or 'javascript'
+- 'json'
+- 'scss' or 'sass'
 
----
+
+## Migration
+
+State | Major Version | Last Minor Release | Migration guide |
+:---: | :---: | :---: | :---:
+✨ active | 2 | N/A | [migrate to v2](MIGRATION.md#migrating-from-v1-to-v2) |
+⚠ maintained | 1 | 1.6.4 | N/A |
 
 ## Contact
 
 If you have any questions or comments about this component, or need help using it, please either [raise an issue](https://github.com/Financial-Times/o-syntax-highlight/issues), visit [#ft-origami](https://financialtimes.slack.com/messages/ft-origami/) or email [Origami Support](mailto:origami-support@ft.com).
 
-----
 
 ## Licence
 

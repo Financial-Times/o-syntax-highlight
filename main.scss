@@ -12,7 +12,7 @@
 		'html', 
 		'js',
 		'json',
-		'scss'
+		'sass'
 	)
 )) {
 	$languages: map-get($opts, 'languages');
@@ -35,7 +35,7 @@
 		@include _oSyntaxHighlightHTML();
 	}
 
-	@if index($languages, 'js') {
+	@if index($languages, 'js') or index($languages, 'javascript') {
 		@include _oSyntaxHighlightJS();
 	}
 
@@ -43,7 +43,7 @@
 		@include _oSyntaxHighlightJSON();
 	}
 
-	@if index($languages, 'scss') {
+	@if index($languages, 'scss') or index($languages, 'sass') {
 		@include _oSyntaxHighlightSCSS();
 	}
 }
