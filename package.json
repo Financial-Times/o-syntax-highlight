@@ -12,7 +12,7 @@
     },
     "main": "main.js",
     "peerDependencies": {
-        "@financial-times/o-colors": "^5.0.0",
+        "@financial-times/o-colors": "^100.0.0-3",
         "prismjs": "^1.14.0"
     },
     "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
