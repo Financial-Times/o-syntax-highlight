@@ -1,5 +1,5 @@
 {
-    "name": "o-syntax-highlight",
+    "name": "@financial-times/o-syntax-highlight",
     "devDependencies": {
         "eslint": "^7.1.0",
         "eslint-config-origami-component": "^2.0.1",
