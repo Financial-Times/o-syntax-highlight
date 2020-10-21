@@ -12,12 +12,12 @@
     },
     "main": "main.js",
     "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-4",
+        "@financial-times/o-colors": "^100.0.0-5",
         "prismjs": "^1.14.0"
     },
     "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "100.0.0-4"
+    "version": "100.0.0-5"
 }
