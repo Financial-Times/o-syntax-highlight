@@ -1,6 +1,6 @@
 {
     "name": "@financial-times/o-syntax-highlight",
-    "version": "100.0.0-7",
+    "version": "100.0.0-8",
     "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
     "license": "MIT",
     "type": "module",
@@ -22,7 +22,7 @@
         "stylelint-config-origami-component": "^1.0.2"
     },
     "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-7",
+        "@financial-times/o-colors": "^100.0.0-8",
         "prismjs": "^1.14.0"
     },
     "publishConfig": {
