@@ -1,31 +1,41 @@
 {
-    "name": "@financial-times/o-syntax-highlight",
-    "version": "100.0.0-8",
-    "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
-    "license": "MIT",
-    "type": "module",
-    "exports": {
-        ".": {
-            "browser": "./main.js"
-        }
-    },
-    "browser": "./main.js",
-    "types": "types",
-    "devDependencies": {
-        "eslint": "^7.1.0",
-        "eslint-config-origami-component": "^2.0.1",
-        "origami-ci-tools": "^2.0.0",
-        "remark": "^12.0.0",
-        "remark-lint": "^7.0.0",
-        "remark-preset-lint-origami-component": "^1.1.1",
-        "stylelint": "^13.5.0",
-        "stylelint-config-origami-component": "^1.0.2"
-    },
-    "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-9",
-        "prismjs": "^1.14.0"
-    },
-    "publishConfig": {
-        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  "name": "@financial-times/o-syntax-highlight",
+  "version": "100.0.0-10",
+  "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
+  "keywords": [],
+  "homepage": "https://github.com/Financial-Times/o-syntax-highlight#readme",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/o-syntax-highlight/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/o-syntax-highlight.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./main.js"
     }
+  },
+  "browser": "./main.js",
+  "types": "types",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-origami-component": "^2.0.1",
+    "origami-ci-tools": "^2.0.0",
+    "remark": "^12.0.0",
+    "remark-lint": "^7.0.0",
+    "remark-preset-lint-origami-component": "^1.1.1",
+    "stylelint": "^13.5.0",
+    "stylelint-config-origami-component": "^1.0.2"
+  },
+  "peerDependencies": {
+    "@financial-times/o-colors": "^100.0.0-10",
+    "prismjs": "^1.14.0"
+  },
+  "publishConfig": {
+    "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  }
 }
