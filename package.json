@@ -22,10 +22,10 @@
         "stylelint-config-origami-component": "^1.0.2"
     },
     "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-8",
+        "@financial-times/o-colors": "^100.0.0-9",
         "prismjs": "^1.14.0"
     },
     "publishConfig": {
-        "registry": "http://localhost:4873"
+        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
     }
 }
