@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/o-syntax-highlight",
-  "version": "100.0.0-12",
+  "version": "100.0.0-13",
   "description": "A syntax highlighter for Origami-supported documentation that wraps PrismJs",
   "keywords": [],
   "homepage": "https://github.com/Financial-Times/o-syntax-highlight#readme",
@@ -33,7 +33,7 @@
     "typescript": "^4.0.5"
   },
   "peerDependencies": {
-    "@financial-times/o-colors": "^100.0.0-12",
+    "@financial-times/o-colors": "^100.0.0-13",
     "prismjs": "^1.14.0"
   },
   "publishConfig": {
