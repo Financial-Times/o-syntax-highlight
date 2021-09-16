@@ -1,5 +1,11 @@
 # o-syntax-highlight
 
+***
+
+**This component has moved to the [Origami Component System](https://github.com/Financial-Times/origami).**
+
+***
+
 A syntax highlighter for Origami-supported documentation that wraps [PrismJs](https://github.com/PrismJS/prism).
 
 - [Usage](#usage)
